@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+
+
+
+<style type="text/css">
+form {
+	padding-left: 25px;
+	width: 500px;
+	height:1800px
+	margin: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	-webkit-border-radius: 16px 20px 20px 51px;
+	-moz-border-radius: 16px 20px 20px 51px;
+	border-radius: 16px 20px 20px 51px;
+	border:5px solid #1C1C00;
+	-webkit-box-shadow: #B3B3B3 60px 60px 60px;
+	-moz-box-shadow: #B3B3B3 60px 60px 60px; 
+	box-shadow: #B3B3B3 60px 60px 60px;"
+}
+.txt {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.tab{
+	height: 25px;
+	width: 100px;
+	margin-left: 125px;
+}
+
+/* Gradient 1 */
+.tb10 {
+	background-image:url(f.jpg);
+	background-repeat:repeat-x;
+	border:5px solid black;
+	width: 300px;
+	color:#32CD32;
+	padding:5px;
+	margin-right:4px;
+	margin-bottom:8px;
+	font-family:tahoma, arial, sans-serif;
+	background-color:#CCC;
+
+}
+
+/* POSITIVE */
+
+.positive{
+	height:60px;
+	width:150px;
+	color:#333333;
+	border: 5px solid black;
+	/* top-left,top-right ,bottom-right , bottom-left */
+	border-radius: 0px 50px 50px 0px;;
+
+}
+.positive:hover{
+	background-color:red;
+	border:5px solid black;
+	color:blue;
+}
+</style>
+
+<body>
+
+	<div>
+    <form id="cForm" action="contact.php" method="post">
+  <h1 class="txt">Contact Me</h1>
+  <p><br/>
+    Name : <br/>
+    <input class="tb10" id="posName" style="WIDTH: 224px" size="25"   name="posName" />
+    <br/>
+
+    Email : <br/>
+    <input class="tb10"  id="posEmail" style="WIDTH: 224px"  size="25" name="posEmail" />
+    <br/>
+    Telephone : <br/>
+    <input class="tb10"  id="posRegard" style="WIDTH: 224px" size="25" name="posRegard" />
+    <br/>
+    Additional Information : <br/>
+    <textarea class="tb10"  id="posText" style="WIDTH: 225px" name="posText" rows="5"></textarea>
+  </p>
+  <p>
+    <label>
+    
+  
+    
+    <button type="submit" id="sendContactEmail"  class="positive" name="sendContactEmail">
+        <strong>SEND EMAIL</strong></button>
+     
+    </label>
+  </p>
+</form>
+      
+    </div>
+
+</body>
+</html>

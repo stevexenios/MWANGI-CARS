@@ -1,0 +1,16 @@
+
+.cont {
+    margin: 0 auto;
+    position:absolute;
+    top:30%;
+    left:45%;
+    width: 300px;
+    clear: both;
+}
+
+.cont input {
+	width: 100%;
+	clear: both;
+    text-align: center;
+}
+

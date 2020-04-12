@@ -1,0 +1,33 @@
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+background-image: url("images/snow.jpg");
+}
+table#t01 tr:nth-child(odd) {
+background-image: url("images/g1.jpg");
+}
+table#t01 th {
+    background-image: url("images/g1.jpg");
+    color: white;
+}
+
+#rcorners2-container6 {
+    border-radius: 10px;
+    border: 1px solid black;
+	padding: 5px;
+	background-image: url("images/g1.jpg");
+	opacity: 0.90;
+	margin-top:10px;
+    width: 800px;
+    height: 650px;    
+
+}

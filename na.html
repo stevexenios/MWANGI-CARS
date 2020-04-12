@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NorthAmerica</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<center>
+	<body>
+		<img src="na.png" usemap="#Map" />
+		<div class="cont">
+		<form action="javascript:myFunction()">
+			Price $ <input id="mainNum" type="number" ><br>
+			<br>
+			<input type="submit" value="Display Result">
+			<br>
+			Tax % <input type="text" id="naTax" value="10.98" disabled=""><br>
+			<br>
+			After Tax Price of Car $ <input id="totalDue" type="text" disabled=""><br>
+		</form>
+		</div>
+
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		function myFunction() {
+			var x = document.getElementById("mainNum").value;
+			var y = document.getElementById("naTax").value;
+			var z = (y / 100.0);
+			var i = (z * x);
+			var j = (parseFloat(x) + parseFloat(i));
+			document.getElementById("totalDue").value = j;
+		}
+	</script>
+
+	</body>
+	</center>
+</html>

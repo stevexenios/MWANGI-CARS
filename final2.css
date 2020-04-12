@@ -1,0 +1,153 @@
+#rcorners2-container {
+    border-radius: 10px;
+    border: 1px solid black;
+	padding: 5px;
+	background: black;
+	margin-top:10px;
+    width: 1200px;
+    height: 750px;    
+
+}
+
+.container {
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 24px;
+    left: 36px;
+    font-family:'Abril Fatface', cursive;
+    font-size: 48px;
+	color:white;
+}
+
+
+
+#wrapper1 {
+	list-style-type: none;
+    margin-left: auto;
+	margin-right:auto;
+	margin-top: 2px;
+	margin-bottom: 2px;
+    border: 5px solid black;
+	padding: 2px;
+    position:relative;
+	overflow: hidden;
+	background-image: url("images/g1.jpg");
+    width:50%;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: auto;
+	margin-right:auto;
+    padding: 5px;
+    overflow: hidden;
+	font-family: font-family: 'Abril Fatface', cursive;
+    background-image: url("images/g1.jpg");
+    width:75%;
+	display:inline-block;
+	font-size: 140%;
+	
+}
+
+
+li {
+    float: left;
+	}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p {
+    border: 1px solid black;
+    outline-color:black;
+	color:black;
+}
+
+p.groove {outline-style: groove;}
+
+h1{color:black}
+
+
+#first, #second{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#wrapper {
+    width: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 5px solid black;
+	padding: 5px;
+    position:relative;
+	background:rgba(255,255,255,0.5);
+	font-family: font-family: 'Abril Fatface', cursive;
+    font-size: 16px;
+}
+
+
+
+#first {
+    width:100%;
+    display:inline-block;
+}
+
+#second {
+    width:100%;
+    display:inline-block;
+}
+
+#third {
+    width:100%;
+    display:inline-block;
+}
+
+a:hover, a:active {
+    background-color: gray;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+	border-radius: 10%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+

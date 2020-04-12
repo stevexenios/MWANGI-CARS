@@ -1,0 +1,109 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
+<style type="text/css">
+form {
+	background-color:lightblue;
+	padding-left: 20px;
+	width: 700px;
+	height:900px;
+	padding-bottom:20px;
+	font-family: 'Cinzel', serif;
+	border:  solid red;
+	border-radius:10px;
+	box-shadow: 18px 18px 32px;
+	margin-left:15%;
+	border: black;
+}
+body{ 
+    background-color: white;
+	border-radius: 20px;
+	
+	}
+.tab{ border-radius:10px;
+      background-color:green;
+      height:60px;
+      width: 80px;	  
+}
+.tab1{ border-radius:10px;
+      background-color:red;
+      height:60px;
+      width: 80px;
+}	  
+.txt {
+	font-family: 'Cinzel', serif;
+	font-size: 24px;
+}
+
+</style>
+
+<body>
+
+	  
+    <form action="contact.php" method="post">
+  <h1 class="txt">Bookstore Survey</h1>
+  <h3><p><br/>
+    Name : <input  id="posName" style="WIDTH: 160px" size="70"   name="posName"  border= "black"/>
+	Lastname:<input  id="posName" style="WIDTH: 160px" size="70"   name="posName"  border="black"/>
+    <br/>
+	<br>
+	Address:<input  id="posName" style="WIDTH: 400px" size="20"   name="posName"  border="black"/>
+	<br>
+	<br>
+	City:<input  id="posName" style="WIDTH: 120px" size="20"   name="posName"  border="black"/>
+	State:<input  id="posName" style="WIDTH: 100px" size="20"   name="posName"  border="black"/>
+	Zip:<input  id="posName" style="WIDTH: 120px" size="20"   name="posName"  border="black"/><br>
+	<br>
+    E-mail Address :  <input  id="posEmail" style="WIDTH: 240px"  size="50" name="posEmail" />
+    <br>
+	<br><hr>
+	<br><br>
+	
+	Have you purchased books at the campus bookstore?<br>
+
+      <label for="vsat">Yes</label> <input type="radio" name="satisfaction" id="vsat" value="vsat">
+      <label for="sat">No</label> <input type="radio" name="satisfaction" id="sat" value="sat">
+    <br>
+	<br>
+    In Which Bookstore do you usually shop? <br>
+	
+        <select name="location" id="location" style= "border-radius: 12px;" >
+    <option value=""></option>
+    <option value="Annie">Annies Books</option>
+    <option value="vancouver">Lafollet Shop</option>
+    <option value="atlantis">University BookStore</option>
+    </select>
+
+		
+<br>
+<br>
+Have you ever purchased books on the Internet?<br>
+      <label for="1vsat">Yes</label> <input type="radio" name="online" id="1vsat" value="1vsat">
+      <label for="1sat">No</label> <input type="radio" name="online" id="1sat" value="1sat">
+<br><br>
+
+    How does shopping on the internet campare to shopping at the campus bookstore? <br/>
+    <textarea name="comments" id="comments" cols="80" rows="10"></textarea
+  </p>
+  <p>
+    <label>
+	  <input class="tab" id="sendContactEmail" type="submit" value="Submit " name="sendContactEmail" >
+      <input class="tab1" id="reset" type="reset" value="Reset" name="reset" border="tan" />
+	  
+	</label>
+	
+	  
+	
+  </p></h3>
+</form>
+      
+    </div>
+
+</body>
+</html>
